@@ -1,21 +1,44 @@
-.titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.sublinhado{
-    text-decoration: underline;
+header{
+    width: 100%;
+    height: 200px;
+    background-color: #333;
+    border-bottom: 5px solid #FFF;
+
 }
 
-.fonte-grande{
-    font-size: 70px;
-    color: green;
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    border-bottom: 5px solid #FFF;
 }
 
-.tudo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-decoration: underline;
-    font-size: 70px;
-    color: green;
+.container{
+    display: flex;
+    width: 100%;
+}
+
+section{
+    width: 80%;
+    height: 400px;
+    background-color: blue;
+    border-bottom: 5px solid #FFF;
+}
+
+aside{
+    width: 20%;
+    height: 400px;
+    background-color: red;
+    border-bottom: 5px solid #FFF;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #333;
 }
